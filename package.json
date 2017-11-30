@@ -1,0 +1,28 @@
+{
+  "name": "gulp-es6-amd-optimizer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Marius Gundersen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mariusgundersen/amd-optimizer"
+  },
+  "dependencies": {
+    "recast": "~0.10.33",
+    "requirejs": "^2.1.20",
+    "toposort": "^0.2.12",
+    "ast-traverse": "~0.1.1",
+    "strip-bom": "^2.0.0",
+    "vinyl": "~1.0.0",
+    "slash": "^1.0.0",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
